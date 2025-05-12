@@ -16,7 +16,7 @@
       ],
       "vmArgs": [
         "@/Users/john/Documents/Projects/LabCo-1.21.1/build/moddev/clientRunVmArgs.txt",
-        "-Dfml.modFolders\u003dexamplemod%%/Users/john/Documents/Projects/LabCo-1.21.1/bin/main"
+        "-Dfml.modFolders\u003dlabco%%/Users/john/Documents/Projects/LabCo-1.21.1/bin/main"
       ],
       "cwd": "${workspaceFolder}/run",
       "env": {},
@@ -38,7 +38,7 @@
       ],
       "vmArgs": [
         "@/Users/john/Documents/Projects/LabCo-1.21.1/build/moddev/dataRunVmArgs.txt",
-        "-Dfml.modFolders\u003dexamplemod%%/Users/john/Documents/Projects/LabCo-1.21.1/bin/main"
+        "-Dfml.modFolders\u003dlabco%%/Users/john/Documents/Projects/LabCo-1.21.1/bin/main"
       ],
       "cwd": "${workspaceFolder}/run",
       "env": {},
@@ -60,7 +60,7 @@
       ],
       "vmArgs": [
         "@/Users/john/Documents/Projects/LabCo-1.21.1/build/moddev/gameTestServerRunVmArgs.txt",
-        "-Dfml.modFolders\u003dexamplemod%%/Users/john/Documents/Projects/LabCo-1.21.1/bin/main"
+        "-Dfml.modFolders\u003dlabco%%/Users/john/Documents/Projects/LabCo-1.21.1/bin/main"
       ],
       "cwd": "${workspaceFolder}/run",
       "env": {},
@@ -82,7 +82,7 @@
       ],
       "vmArgs": [
         "@/Users/john/Documents/Projects/LabCo-1.21.1/build/moddev/serverRunVmArgs.txt",
-        "-Dfml.modFolders\u003dexamplemod%%/Users/john/Documents/Projects/LabCo-1.21.1/bin/main"
+        "-Dfml.modFolders\u003dlabco%%/Users/john/Documents/Projects/LabCo-1.21.1/bin/main"
       ],
       "cwd": "${workspaceFolder}/run",
       "env": {},
