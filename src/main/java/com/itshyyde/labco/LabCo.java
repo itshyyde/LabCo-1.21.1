@@ -2,6 +2,7 @@ package com.itshyyde.labco;
 
 import org.slf4j.Logger;
 
+import com.itshyyde.labco.block.ModBlocks;
 import com.itshyyde.labco.item.ModItems;
 import com.mojang.logging.LogUtils;
 
@@ -37,6 +38,7 @@ public class LabCo {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -52,6 +54,10 @@ public class LabCo {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.FERROCARBON_DUST);
+        }
+        
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.FERROCARBON_BLOCK);
         }
     }
 

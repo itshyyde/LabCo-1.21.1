@@ -1,0 +1,6 @@
+{
+    "parent": "labco:block/ferrocarbon_block",
+    "textures": {
+        "layer0": "labco:item/ferrocarbon_block"
+    }
+}

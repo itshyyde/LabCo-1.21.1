@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "labco:block/ferrocarbon_block"
+        }
+    }
+}
