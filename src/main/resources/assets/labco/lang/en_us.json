@@ -1,5 +1,7 @@
 {
   "item.labco.ferrocarbon_dust": "Ferrocarbon Dust",
-  
-  "block.labco.ferrocarbon_block": "Ferrocarbon Block"
+
+  "block.labco.ferrocarbon_block": "Ferrocarbon Block",
+
+  "creativetab.labco.labco_items": "Lab Co."
 }
